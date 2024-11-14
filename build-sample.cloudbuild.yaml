@@ -1,6 +1,4 @@
-steps:
-  - id: test-builds-successfully
-    name: gcr.io/google.com/cloudsdktool/cloud-sdk
-    dir: $_DIR
-    script: |
-      gcloud builds submit 
+   steps:
+   - name: golang
+     script: go run quickstart-automate/main.go
+   
