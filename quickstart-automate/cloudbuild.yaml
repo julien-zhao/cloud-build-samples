@@ -18,4 +18,4 @@ steps:
     args: ['go', 'run', 'quickstart-automate/main.go']
 # [END cloudbuild_quickstart_automate]
 options:
-  logging: CLOUD_LOGGING_ONLY3
+  logging: CLOUD_LOGGING_ONLY
